@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+#navbar-logo-image-1{
+    height: 50px;
+    width: 100px;
+}
+#Pakistan{
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+#deliverto{
+    margin-left: 25px;
+    font-size: 0.75rem;
+    color: #CCCCCC;
+}
+#searchbar{
+    height: 60px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#selectbox{
+    height: 42px;
+    width: 52px;
+    background-color: #E6E6E6;
+    border: none;
+    text-align: center;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    appearance: none;
+}
+#textarea{
+    height: 40px;
+    border: none;
+    width: 80%;
+}
+#buttondiv{
+    width: 45px;
+    height: 42px;
+    background-color: rgb(255, 203, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+#searchbutton{
+    width: 45px;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 203, 107);
+    
+}
+#glass{
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.781);
+}
