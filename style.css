@@ -15,6 +15,7 @@
 #navbar-logo-image-1{
     height: 50px;
     width: 100px;
+    padding-top: 12px;
 }
 #Pakistan{
     font-weight: bold;
@@ -28,10 +29,11 @@
 }
 #searchbar{
     height: 60px;
-    width: 600px;
+    width: 630px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 #selectbox{
     height: 42px;
@@ -46,7 +48,8 @@
 #textarea{
     height: 40px;
     border: none;
-    width: 80%;
+    width: 83%;
+    /* width: 350px; */
 }
 #buttondiv{
     width: 45px;
@@ -68,4 +71,70 @@
 #glass{
     font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.781);
+}
+
+#flagbox{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+#flagbox-image{
+    height: 16.2px;
+    width: 21.6px;
+    margin-right: 4px;
+}
+#flagbox-text{
+    padding-top: 6px;
+    font-size: 14px;
+}
+#signinbox{
+    height: 50px;
+    width: 125px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.boldclass{
+    font-weight: bold;
+}
+#signinbox-1{
+    padding-top: 10px;
+}
+#signinbox-2{
+    font-size: 14px;
+}
+
+#returnbox{
+    height: 50px;
+    width: 70px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#returnbox-1{
+    padding-top: 10px;
+}
+#returnbox-2{
+    font-size: 14px;
+}
+#cartbox{
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+}
+#cartbox-1{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#cartbox-2{
+    padding-top: 20px;
+    font-size: 14px;
 }
