@@ -12,10 +12,28 @@
     color: white;
 
 }
-#navbar-logo-image-1{
+
+#navbar-logo{
+    /* background-color: pink; */
     height: 50px;
+    width: 120px;
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+#navbar-box2{
+    /* background-color: pink; */
+    height: 50px;
+    align-content: center;
+    width: 90px;
+}
+#navbar-logo-image-1{
+    height: 45px;
     width: 100px;
     padding-top: 12px;
+    /* background-color: red; */
 }
 #Pakistan{
     font-weight: bold;
@@ -74,11 +92,13 @@
 }
 
 #flagbox{
-    height: 40px;
-    width: 50px;
+    height: 35px;
+    width: 70px;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding-top: 15px;
+    /* background-color: pink; */
     
 }
 #flagbox-image{
@@ -91,12 +111,14 @@
     font-size: 14px;
 }
 #signinbox{
+    padding-left: 10px;
     height: 50px;
-    width: 125px;
+    width: 130px;
     font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* background-color: pink; */
     
 }
 .boldclass{
@@ -116,6 +138,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
     
 }
 #returnbox-1{
@@ -128,7 +152,9 @@
     height: 50px;
     width: 70px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    /* background-color: pink; */
 }
 #cartbox-1{
     padding-top: 10px;
@@ -442,4 +468,8 @@ a{
 }
 .footer-anchor1{
     font-size: 12px;
+}
+
+.borderanimation:hover{
+    border: solid 2px white;
 }
